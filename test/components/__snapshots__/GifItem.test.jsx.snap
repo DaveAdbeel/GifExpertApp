@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el componente <GifItem/> El componente debe hacer match con su snapshot final 1`] = `
+<div>
+  <li
+    class="card"
+  >
+    <img
+      alt="Fabio Porchat Pergunta GIF by Porta Dos Fundos"
+      src="https://media4.giphy.com/media/JAy6dD3DI78zozppsp/200.gif?cid=31efa263g5mm18disiiyzn3kd77tc8f5gqjekntad7n9n1k7&ep=v1_gifs_search&rid=200.gif&ct=g"
+    />
+    <p
+      data-testid="gif-title"
+    >
+      Fabio Porchat Pergunta GIF by Porta Dos Fundos
+    </p>
+  </li>
+</div>
+`;
