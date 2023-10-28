@@ -12,17 +12,21 @@ const AddCategory = ({ onInputSubmit }) => {
     e.preventDefault();
     const input = inputValue.trim()
 
-    if (input.length >= 3)
-      onInputSubmit(input)
+    if (input.length >= 3){
       setInputValue("");
+      onInputSubmit(input)
+      return
+    } 
+    
   };
   
 
   return (
-    <form onSubmit={onSubmit}>
+    <form aria-label="form" onSubmit={onSubmit}>
       <input
         type="text"
         placeholder="Busca tus gifs"
+        aria-label="gifs-search-bar"
         value={inputValue}
         onChange={onInputChange}
       />
