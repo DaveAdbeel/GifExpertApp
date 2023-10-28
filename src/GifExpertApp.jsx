@@ -13,7 +13,7 @@ const GifExpertApp = () => {
         <>
             <h1>GifExpertApp</h1>
             <AddCategory onInputSubmit={onAddCategory}/>
-            <ol>
+            <ol aria-label="gif-list">
                 {categories.map( (category, key) => <GifGrid  key={key} category={category}/>)}
             </ol>
         </>
